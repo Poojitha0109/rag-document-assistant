@@ -35,6 +35,31 @@ Gemini LLM
 Answer
 ```
 
+## 🖥️ Web Interface
+
+Users can:
+
+- Upload PDF documents
+- Ask questions in a chat interface
+- Receive AI-generated answers grounded in document context
+- Interact with documents using Retrieval-Augmented Generation (RAG)
+
+### Architecture
+
+PDF Upload
+↓
+Chunking
+↓
+Embeddings
+↓
+ChromaDB
+↓
+Similarity Search
+↓
+Gemini
+↓
+Answer Generation
+
 ## 🛠️ Tech Stack
 
 * Python
